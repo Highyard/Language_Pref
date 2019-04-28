@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CourseRatingApp</string>
+    <string name="sign_in">Log in</string>
+    <string name="sign_up">Ny bruger</string>
+    <string name="quality_of_examples">Eksemplers Kvalitet</string>
+    <string name="Signing_in">Logger ind...</string>
+    <string name="LoggedInAs">"Du er logget ind som: "</string>
+    <string name="user_already_exists">bruger findes allerede</string>
+    <string name="toast_canceled_sign_up">Noget gik galt</string>
+    <string name="teacher_overall_performance">Lærers overordnede performance</string>
+    <string name="submit_answers">Indsend Svar</string>
+    <string name="subject_relevance">Stoffets relevans</string>
+    <string name="feedback_from_teacher">Feedback fra lærer</string>
+</resources>

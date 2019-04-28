@@ -1,0 +1,99 @@
+<resources>
+
+    <!--// Methods //-->
+    <string name="app_name">CourseRatingApp</string>
+    <string name="onCreate">OnCreate() called</string>
+    <string name="onSaveInstanceState">onSaveInstanceState() called</string>
+    <string name="onClick">onClick() called</string>
+    <string name="init">init() called</string>
+    <string name="on_activity_result">onActivityResult() called</string>
+    <string name="start_activity_for_result">startActivityForResult() called</string>
+
+    <!-- Course buttons -->
+    <string name="python_button_clicked">python button clicked</string>
+    <string name="C_button_clicked">C button clicked</string>
+    <string name="js_button_clicked">JS button clicked</string>
+    <string name="angular_button_clicked">angular button clicked</string>
+    <string name="nodejs_button_clicked">nodejs button clicked</string>
+    <string name="java_button_clicked">java button clicked</string>
+
+    <!-- COUNT, RATING, AND OVERALL (ACCUMULATED) RATING KEYS FOR COURSES. IN THAT ORDER -->
+    <string name="PYTHON_AVERAGE_COUNT_KEY">PYTHON_AVERAGE_COUNT</string>
+    <string name="C_AVERAGE_COUNT_KEY">C_AVERAGE_COUNT</string>
+    <string name="JS_AVERAGE_COUNT_KEY">JS_AVERAGE_COUNT</string>
+    <string name="ANGULAR_AVERAGE_COUNT_KEY">ANGULAR_AVERAGE_COUNT</string>
+    <string name="NODEJS_AVERAGE_COUNT_KEY">NODEJS_AVERAGE_COUNT</string>
+    <string name="JAVA_AVERAGE_COUNT_KEY">JAVA_AVERAGE_COUNT</string>
+
+    <string name="PYTHON_AVERAGE_RATING_KEY">PYTHON_AVERAGE_RATING</string>
+    <string name="C_AVERAGE_RATING_KEY">C_AVERAGE_RATING</string>
+    <string name="JS_AVERAGE_RATING_KEY">JS_AVERAGE_RATING</string>
+    <string name="ANGULAR_AVERAGE_RATING_KEY">ANGULAR_AVERAGE_RATING</string>
+    <string name="NODEJS_AVERAGE_RATING_KEY">NODEJS_AVERAGE_RATING</string>
+    <string name="JAVA_AVERAGE_RATING_KEY">JAVA_AVERAGE_RATING</string>
+
+    <string name="python_rating_key">PYTHON_OVERALL_KEY</string>
+    <string name="c_rating_key">C_rating_key</string>
+    <string name="js_rating_key">JS_RATING_KEY</string>
+    <string name="angular_rating_key">ANGULAR_RATING_KEY</string>
+    <string name="nodejs_rating_key">NODEJS_RATING_KEY</string>
+    <string name="java_rating_key">JAVA_RATING_KEY</string>
+
+    <string name="COURSE_RATINGS_KEY">CourseRatings</string>
+
+
+
+    <!-- DEFAULT EMAIL -->
+    <!-- THIS WILL BE THE EMAIL THAT RECEIVES AN AVERAGE RATING FOR ANY GIVEN COURSE-->
+    <string name="default_email">highyard@hotmail.com</string>
+
+    <!-- Uri.encode() strings -->
+    <string name="mailto">mailto:</string>
+    <string name="subject">\?subject</string>
+    <string name="subject_text">New Rating!</string>
+    <string name="body"><![CDATA[&body=]]></string>
+    <string name="period">.</string>
+    <string name="student_new_rating">A student rated your course: </string>
+    <string name="new_average_rating">Your new average rating is: </string>
+
+
+    <!--// Other //-->
+    <string name="Signing_in">Signing in...</string>
+    <string name="please_choose_the_course_you_would_like_to_rate">Please choose the course you would like to rate</string>
+    <string name="node_js">Node.js</string>
+    <string name="angular">Angular</string>
+    <string name="js">JS</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="python">Python</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="courseratingapp">CourseRatingApp</string>
+    <string name="sign_in">Sign in</string>
+    <string name="LoggedInAs">"You are logged in as: "</string>
+    <string name="stringFormat">%s%s</string>
+    <string name="job_opportunities_post_graduation">Job opportunities post-graduation</string>
+    <string name="quality_of_examples">Quality of examples</string>
+    <string name="feedback_from_teacher">Feedback from teacher</string>
+    <string name="teacher_preperation">Teacher Preparation</string>
+    <string name="teacher_overall_performance">Teacher overall performance</string>
+    <string name="subject_relevance">Subject Relevance</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="fill_out_fields">Please fill out all fields</string>
+    <string name="result_canceled_answers">You didn\'t submit your answers. Please click on a course to start again</string>
+    <string name="nullPointerAction">Error likely due to receivedAction being null. Resolve this error by making certain CoursesPageActivity assigns and sends an Action</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="shared_preferences_create_user_key">SP_CREATE_USER_KEY</string>
+    <string name="new_user_key">NEW_USER_KEY</string>
+    <string name="new_user">NEW_USER</string>
+    <string name="canceled_sign_up">No login information was sent back to this activity. User may have hit the back button and canceled result.</string>
+    <string name="toast_canceled_sign_up">Something went wrong. Did you remember to tap \'Sign up\'?</string>
+    <string name="data_null">The Intent data object came back null</string>
+    <string name="user_not_found">Information was incorrect or user was not found</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="empty_string" />
+    <string name="new_line">\n</string>
+
+
+</resources>
